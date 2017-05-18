@@ -32,9 +32,6 @@ public class App {
 			// converting the columns values into integers
         	// get only the columns that are needed
         	// remove special characters at the end of some integers
-
-        	// System.out.println(record);
-        	// Converting the values into integers
         	Integer max = Integer.valueOf(myValues[1].replace("*",""));
         	Integer min = Integer.valueOf(myValues[2].replace("*",""));
 
@@ -43,7 +40,6 @@ public class App {
         	result.put(myValues[0], sub); // with our hashMap put in the key=column[0] which is the day and the subtract value as the value
 		}
 
-		// outside the loop
         // get the maximum value in the HashMap
         // store it in a variable of type int
         int maxVal = Collections.max(result.values());
