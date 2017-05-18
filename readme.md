@@ -24,14 +24,18 @@ Assuming that your program is called weather.py, then a sample run will look lik
 
 # Implementation
 
-To implement the solution i used java language and gradle for compilation.
+To implement the solution using java language and gradle for compilation.
+
 
 # Requirements
 
-	sublimetext
-	java sdk installed
-	gradle
+	TextEditor
+	Java SDK Installed
+	Gradle
 
 # How to run the project
 
-After cloning the project, open the terminal on the main root folder and type in *gradle run* the projet will compile and run at the same time.
+After cloning the project, 
+* Open the terminal on the main root folder
+* Type in *gradle run* 
+* Projet will compile and run at the same time
